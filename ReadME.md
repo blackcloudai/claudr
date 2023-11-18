@@ -1,4 +1,4 @@
-# Claudr: Cross-Language AWS CLI User Command Translator 
+# Claudr: Cross-Language AWSCLI User Command Translator 
 
 ### Overview 
 
@@ -25,6 +25,14 @@ Intuitive and accessible, Claudr is crafted for both novice and seasoned AWS use
 #### Learning and Development: 
 
 A great resource for understanding the conversion of AWS CLI commands into different programming languages, fostering a deeper understanding of cloud programming paradigms.
+
+#### Claudr CDK-Workflows 
+
+This new feature integrates AWS Cloud Development Kit (CDK) support. Claudr CDK-Workflows enables users to translate AWS CLI commands into high-level CDK constructs and workflows. This addition is especially beneficial for users who prefer infrastructure as code (IaC) practices, as it simplifies the transition from manual cloud resource management to automated, code-based approaches. It’s ideal for developing and deploying full-stack applications on AWS, making infrastructure management more efficient and scalable.
+
+#### Why Claudr CDK-Workflows is Beneficial 
+
+Claudr CDK-Workflows facilitates a seamless transition to using AWS CDK, a preferred tool for defining cloud infrastructure in code. It enhances automation, enabling developers to quickly prototype and deploy AWS resources. This feature is particularly useful for those who are new to AWS CDK, providing an intuitive way to understand and implement CDK by translating familiar CLI commands. It supports scalable and repeatable cloud infrastructure deployment, aligning with modern development practices.
  
 ### Greeting Started 
 

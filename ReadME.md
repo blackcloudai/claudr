@@ -14,11 +14,17 @@ Initially provides translations to Python (Boto3), with a roadmap to include oth
 
 Offers support for a variety of AWS services, beginning with popular choices like S3 and EC2, and expanding to cover a comprehensive range of AWS offerings.
 
-#### Modular and Extensible: Designed with a modular architecture to facilitate the addition of new parsers and extend support for more languages and AWS services.
+#### Modular and Extensible: 
 
-#### User-Centric Design: Intuitive and accessible, Claudr is crafted for both novice and seasoned AWS users.
+Designed with a modular architecture to facilitate the addition of new parsers and extend support for more languages and AWS services.
 
-#### Learning and Development: A great resource for understanding the conversion of AWS CLI commands into different programming languages, fostering a deeper understanding of cloud programming paradigms.
+#### User-Centric Design: 
+
+Intuitive and accessible, Claudr is crafted for both novice and seasoned AWS users.
+
+#### Learning and Development: 
+
+A great resource for understanding the conversion of AWS CLI commands into different programming languages, fostering a deeper understanding of cloud programming paradigms.
  
 ### Greeting Started 
 

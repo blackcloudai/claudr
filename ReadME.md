@@ -7,9 +7,9 @@ Claudr is a versatile tool designed to transform AWS Command Line Interface (CLI
 ### Features 
 
 #### Multi-Language Support: 
-```
+
 Initially provides translations to Python (Boto3), with a roadmap to include other languages such as JavaScript (Node.js), Java, and more.
-```
+
 #### AWS Services Coverage: 
 
 Offers support for a variety of AWS services, beginning with popular choices like S3 and EC2, and expanding to cover a comprehensive range of AWS offerings.

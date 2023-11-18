@@ -3,8 +3,6 @@
 ## Cross-Language AWSCLI User Command Translator
 by Author: BlackCloudAi.com
 
-email: contact@blackcloudai.com
-
 ### Overview 
 
 Claudr is a versatile tool designed to transform AWS Command Line Interface (CLI) commands into equivalent code in various programming languages, starting with Python using the Boto3 SDK. It's an essential utility for developers, cloud engineers, and IT professionals who seek to automate AWS operations or embed AWS functionalities into their applications across different programming environments.
@@ -58,3 +56,16 @@ Contributions are welcome! Whether it's adding new language support, extending A
 ### License
 
 Include information about the licensing of the project
+
+### Consultancy Services 
+
+Are you looking for expert guidance on your AWS cloud journey? As the creator of Claudr and a seasoned AWS consultant, I'm here to help. Whether you need assistance in automating your cloud infrastructure, developing full-stack applications, or navigating the complexities of AWS services, my expertise can steer your projects towards success.
+
+I offer personalized consultancy services tailored to your specific needs:
+
+- Cloud Architecture Design and Optimization
+- Automating Cloud Operations with Infrastructure as Code (IaC)
+- AWS Best Practices and Cost Optimization
+- Custom Solutions for Full-Stack Development on AWS
+
+Interested in elevating your cloud strategy with professional insights? Let’s connect! Reach out to me at contact@blackcloudai.com or please see our site blackcloudai.com for a consultation and explore how we can achieve your cloud computing goals together.

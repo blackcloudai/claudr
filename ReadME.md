@@ -1,4 +1,7 @@
-# Claudr: Cross-Language AWSCLI User Command Translator 
+# Claudr
+
+## Cross-Language AWSCLI User Command Translator
+by Author: BlackCloudAi.com
 
 ### Overview 
 

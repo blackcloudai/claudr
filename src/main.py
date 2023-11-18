@@ -2,8 +2,13 @@
 import sys
 import os
 import argparse
-from parsers.s3_parser import parse_s3_command
-from parsers.ec2_parser import parse_ec2_command
+
+# Assuming your current script is at the root of the project,
+# and the structure is src/python_parser/parsers/...
+sys.path.append(os.path.join(os.path.dirname(__file__), 'src'))
+
+from parsers.python_parser.s3_parser import parse_s3_command
+from parsers.python_parser.ec2_parser import parse_ec2_command
 
 def parse_aws_cli_command(command, language):
     if language == "py" or language == "python":

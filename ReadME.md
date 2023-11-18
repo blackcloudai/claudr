@@ -39,7 +39,63 @@ Claudr CDK-Workflows facilitates a seamless transition to using AWS CDK, a prefe
  
 ### Greeting Started 
 
-Include basic setup instructions and information on how to install or access Claudr
+#### Prerequisites 
+
+[] Make sure you have Python installed on your system. You can download it from python.org.
+
+[] Git should be installed for cloning the repository. If you don't have Git, you can download it from git-scm.com.
+
+#### Installation Instructions for Unix-like Systems (Linux/Mac)
+
+#### Step 1: Clone the Repository
+
+First, clone the repository to your local machine:
+
+```bash
+git clone https://github.com/blackcloudai/claudr.git
+cd claudr
+```
+
+#### Step 2: Set Up a Virtual Environment (Optional)
+
+It's a good practice to use a virtual environment for Python projects. This keeps your project dependencies separate from your system-wide Python packages.
+
+```bash
+python -m venv venv
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
+```
+
+#### Step 3: Install Dependencies
+
+Install the project dependencies using `pip`:
+
+```bash
+pip install -r requirements.txt
+```
+
+#### Step 4:  Make the Script Executabl
+
+
+Navigate to the script directory and make `main.py` executable:
+
+```bash
+chmod +x main.py
+```
+
+#### Step 5: Rename  `main.py` to `claudr`(Optional)
+
+```bash
+mv main.py claudr
+```
+
+```bash
+ln -s /claudr/scr/main.py /usr/local/bin/claudr
+```
+
+```bash
+claudr --help
+```
+
 
 ### Usage
 

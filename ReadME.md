@@ -41,9 +41,9 @@ Claudr CDK-Workflows facilitates a seamless transition to using AWS CDK, a prefe
 
 #### Prerequisites 
 
-[] Make sure you have Python installed on your system. You can download it from python.org.
+1. Make sure you have Python installed on your system. You can download it from python.org.
 
-[] Git should be installed for cloning the repository. If you don't have Git, you can download it from git-scm.com.
+2. Git should be installed for cloning the repository. If you don't have Git, you can download it from git-scm.com.
 
 #### Installation Instructions for Unix-like Systems (Linux/Mac)
 
@@ -88,9 +88,13 @@ chmod +x main.py
 mv main.py claudr
 ```
 
+#### Step 6: Create a Symbolic Link
+
 ```bash
 ln -s /claudr/scr/main.py /usr/local/bin/claudr
 ```
+
+#### Step 7: Test your command
 
 ```bash
 claudr --help
@@ -100,6 +104,18 @@ claudr --help
 ### Usage
 
 Provide examples demonstrating how to translate AWS CLI commands into different programming languages
+
+```bash 
+claudr [code] aws [service] [command] [--options] 
+```
+
+Example: 
+
+```bash 
+claudr python aws s3 ls 
+```
+
+
 
 ### Roadmap
 

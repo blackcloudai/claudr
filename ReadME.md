@@ -37,7 +37,7 @@ This new feature integrates AWS Cloud Development Kit (CDK) support. Claudr CDK-
 
 Claudr CDK-Workflows facilitates a seamless transition to using AWS CDK, a preferred tool for defining cloud infrastructure in code. It enhances automation, enabling developers to quickly prototype and deploy AWS resources. This feature is particularly useful for those who are new to AWS CDK, providing an intuitive way to understand and implement CDK by translating familiar CLI commands. It supports scalable and repeatable cloud infrastructure deployment, aligning with modern development practices.
  
-### Greeting Started 
+### Getting Started 
 
 #### Prerequisites 
 
@@ -45,7 +45,7 @@ Claudr CDK-Workflows facilitates a seamless transition to using AWS CDK, a prefe
 
 2. Git should be installed for cloning the repository. If you don't have Git, you can download it from git-scm.com.
 
-#### Installation Instructions for Unix-like Systems (Linux/Mac)
+### Installation Instructions for Unix-like Systems (Linux/Mac)
 
 #### Step 1: Clone the Repository
 
@@ -73,7 +73,7 @@ Install the project dependencies using `pip`:
 pip install -r requirements.txt
 ```
 
-#### Step 4:  Make the Script Executabl
+#### Step 4:  Make the Script Executable
 
 Navigate to the script directory and make `main.py` executable:
 
@@ -99,10 +99,29 @@ ln -s /claudr/scr/main.py /usr/local/bin/claudr
 claudr --help
 ```
 
+### Installation Instructions for Windows
+
+### Step 1: Add Script to a Directory in Your PATH
+
+Copy `main.py` to a directory that is in your system's PATH. For instance, you might use `C:\Windows\System32`.
+
+### Step 2: Rename `main.py` to `claudr.py` (Optional)
+
+For convenience, you can rename `main.py` to `claudr.py`.
+
+
+### Step 3: Create a Batch File to Run the Script
+
+Create a new file named `claudr.bat` in the same directory where you placed `claudr.py`, with the following contents:
+
+```bat
+@echo off
+python %~dp0claudr.py %*
+```
 
 ### Usage
 
-Provide examples demonstrating how to translate AWS CLI commands into different programming languages, something
+Provide examples demonstrating how to translate AWS CLI commands into different programming languages
 
 ```bash 
 claudr [code] aws [service] [command] [--options] 
@@ -116,11 +135,11 @@ claudr python aws s3 ls
 
 ### Roadmap
 
-Outline future plans for additional language support and features
+Future plans for additional language support and features
 
 ### Contributing 
 
-Contributions are welcome! Whether it's adding new language support, extending AWS service coverage, or improving the core functionality, please read our contributing guidelines to get involved.
+Contributions are welcome when the project is out of development stage. The project is currently in development stage. 
 
 ### License
 

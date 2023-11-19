@@ -115,8 +115,6 @@ Example:
 claudr python aws s3 ls 
 ```
 
-
-
 ### Roadmap
 
 Outline future plans for additional language support and features

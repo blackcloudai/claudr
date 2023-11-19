@@ -75,7 +75,6 @@ pip install -r requirements.txt
 
 #### Step 4:  Make the Script Executabl
 
-
 Navigate to the script directory and make `main.py` executable:
 
 ```bash
@@ -103,7 +102,7 @@ claudr --help
 
 ### Usage
 
-Provide examples demonstrating how to translate AWS CLI commands into different programming languages
+Provide examples demonstrating how to translate AWS CLI commands into different programming languages, something
 
 ```bash 
 claudr [code] aws [service] [command] [--options] 
